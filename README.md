@@ -35,14 +35,7 @@ minikube start
 minikube addons enable helm-tiller
 ```
 
-You'll need to do this in a different terminal because 
-```
-✅  Successfully mounted ./DAGS to /DAGS
-📌  NOTE: This process must stay alive for the mount to be accessible 
-...
-```
-
-> You could ssh into minikube using `minikube ssh` and then confirm that the `DAGS` folder is mounted in root :`/DAGS`
+Now you can install the helm-chart:
 
 ```
 # dry-run to make sure everything looks good
