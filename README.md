@@ -1,5 +1,3 @@
-# airflow-demo
-Testing out how Airflows work and how to go about creating a DAG
 # Airflow Demo
 
 Apache Airflow is “a platform to programmatically author, schedule and monitor workflows”. Essentially, it allows you to schedule tasks to run, run them in a particular order, and monitor / manage all of your tasks. So , OverPowered Cron.
